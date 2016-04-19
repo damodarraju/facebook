@@ -1,0 +1,29 @@
+{
+  "name": "Raju-bot",
+  "version": "1.0.0",
+  "description": "facebook bot",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parse": "^2.15.0",
+    "express": "4.13.3",
+    "request": "^2.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "ISC",
+  "devDependencies": {},
+  "author": "raju gundu"
+}
