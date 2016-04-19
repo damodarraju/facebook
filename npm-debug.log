@@ -1,0 +1,328 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose readDependencies loading dependencies from /Users/raju/Desktop/gundubot/facebook/package.json
+5 verbose install where, deps [ '/Users/raju/Desktop/gundubot/facebook',
+5 verbose install   [ 'body-parse', 'express', 'request' ] ]
+6 verbose install where, peers [ '/Users/raju/Desktop/gundubot/facebook', [] ]
+7 verbose installManyTop reading for lifecycle /Users/raju/Desktop/gundubot/facebook/package.json
+8 info preinstall Raju-bot@1.0.0
+9 verbose readDependencies loading dependencies from /Users/raju/Desktop/gundubot/facebook/package.json
+10 silly cache add args [ 'request@^2.15.1', null ]
+11 verbose cache add spec request@^2.15.1
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'request@^2.15.1',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'request',
+12 silly cache add   rawSpec: '^2.15.1',
+12 silly cache add   spec: '>=2.15.1 <3.0.0',
+12 silly cache add   type: 'range' }
+13 silly addNamed request@>=2.15.1 <3.0.0
+14 verbose addNamed ">=2.15.1 <3.0.0" is a valid semver range for request
+15 silly addNameRange { name: 'request', range: '>=2.15.1 <3.0.0', hasData: false }
+16 silly mapToRegistry name request
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'request',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   name: 'request',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/request
+21 verbose addNameRange registry:https://registry.npmjs.org/request not in flight; fetching
+22 silly cache add args [ 'body-parse@^2.15.0', null ]
+23 verbose cache add spec body-parse@^2.15.0
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'body-parse@^2.15.0',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'body-parse',
+24 silly cache add   rawSpec: '^2.15.0',
+24 silly cache add   spec: '>=2.15.0 <3.0.0',
+24 silly cache add   type: 'range' }
+25 silly addNamed body-parse@>=2.15.0 <3.0.0
+26 verbose addNamed ">=2.15.0 <3.0.0" is a valid semver range for body-parse
+27 silly addNameRange { name: 'body-parse', range: '>=2.15.0 <3.0.0', hasData: false }
+28 silly mapToRegistry name body-parse
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'body-parse',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'body-parse',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npmjs.org/body-parse
+33 verbose addNameRange registry:https://registry.npmjs.org/body-parse not in flight; fetching
+34 silly cache add args [ 'express@4.13.3', null ]
+35 verbose cache add spec express@4.13.3
+36 silly cache add parsed spec Result {
+36 silly cache add   raw: 'express@4.13.3',
+36 silly cache add   scope: null,
+36 silly cache add   name: 'express',
+36 silly cache add   rawSpec: '4.13.3',
+36 silly cache add   spec: '4.13.3',
+36 silly cache add   type: 'version' }
+37 silly addNamed express@4.13.3
+38 verbose addNamed "4.13.3" is a plain semver version for express
+39 silly mapToRegistry name express
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry data Result {
+42 silly mapToRegistry   raw: 'express',
+42 silly mapToRegistry   scope: null,
+42 silly mapToRegistry   name: 'express',
+42 silly mapToRegistry   rawSpec: '',
+42 silly mapToRegistry   spec: 'latest',
+42 silly mapToRegistry   type: 'tag' }
+43 silly mapToRegistry uri https://registry.npmjs.org/express
+44 verbose addNameVersion registry:https://registry.npmjs.org/express not in flight; fetching
+45 verbose request uri https://registry.npmjs.org/body-parse
+46 verbose request no auth needed
+47 info attempt registry request try #1 at 12:14:12 AM
+48 verbose request id fa8abff1d7722d54
+49 http request GET https://registry.npmjs.org/body-parse
+50 verbose request uri https://registry.npmjs.org/request
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 12:14:12 AM
+53 verbose etag "47BP7GO3OS9AUXAGUVLIQ4SJB"
+54 http request GET https://registry.npmjs.org/request
+55 verbose request uri https://registry.npmjs.org/express
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 12:14:12 AM
+58 verbose etag "DI0345A4H6PCEJFYI1VPNCPA2"
+59 http request GET https://registry.npmjs.org/express
+60 http 304 https://registry.npmjs.org/request
+61 verbose headers { date: 'Tue, 19 Apr 2016 14:14:12 GMT',
+61 verbose headers   via: '1.1 varnish',
+61 verbose headers   'cache-control': 'max-age=300',
+61 verbose headers   etag: '"47BP7GO3OS9AUXAGUVLIQ4SJB"',
+61 verbose headers   age: '261',
+61 verbose headers   connection: 'keep-alive',
+61 verbose headers   'x-served-by': 'cache-syd1620-SYD',
+61 verbose headers   'x-cache': 'HIT',
+61 verbose headers   'x-cache-hits': '3',
+61 verbose headers   'x-timer': 'S1461075252.932792,VS0,VE0',
+61 verbose headers   vary: 'Accept-Encoding' }
+62 silly get cb [ 304,
+62 silly get   { date: 'Tue, 19 Apr 2016 14:14:12 GMT',
+62 silly get     via: '1.1 varnish',
+62 silly get     'cache-control': 'max-age=300',
+62 silly get     etag: '"47BP7GO3OS9AUXAGUVLIQ4SJB"',
+62 silly get     age: '261',
+62 silly get     connection: 'keep-alive',
+62 silly get     'x-served-by': 'cache-syd1620-SYD',
+62 silly get     'x-cache': 'HIT',
+62 silly get     'x-cache-hits': '3',
+62 silly get     'x-timer': 'S1461075252.932792,VS0,VE0',
+62 silly get     vary: 'Accept-Encoding' } ]
+63 verbose etag https://registry.npmjs.org/request from cache
+64 verbose get saving request to /Users/raju/.npm/registry.npmjs.org/request/.cache.json
+65 verbose correctMkdir /Users/raju/.npm correctMkdir not in flight; initializing
+66 http 304 https://registry.npmjs.org/express
+67 verbose headers { date: 'Tue, 19 Apr 2016 14:14:12 GMT',
+67 verbose headers   via: '1.1 varnish',
+67 verbose headers   'cache-control': 'max-age=300',
+67 verbose headers   etag: '"DI0345A4H6PCEJFYI1VPNCPA2"',
+67 verbose headers   age: '88',
+67 verbose headers   connection: 'keep-alive',
+67 verbose headers   'x-served-by': 'cache-syd1620-SYD',
+67 verbose headers   'x-cache': 'HIT',
+67 verbose headers   'x-cache-hits': '1',
+67 verbose headers   'x-timer': 'S1461075252.936478,VS0,VE0',
+67 verbose headers   vary: 'Accept-Encoding' }
+68 silly get cb [ 304,
+68 silly get   { date: 'Tue, 19 Apr 2016 14:14:12 GMT',
+68 silly get     via: '1.1 varnish',
+68 silly get     'cache-control': 'max-age=300',
+68 silly get     etag: '"DI0345A4H6PCEJFYI1VPNCPA2"',
+68 silly get     age: '88',
+68 silly get     connection: 'keep-alive',
+68 silly get     'x-served-by': 'cache-syd1620-SYD',
+68 silly get     'x-cache': 'HIT',
+68 silly get     'x-cache-hits': '1',
+68 silly get     'x-timer': 'S1461075252.936478,VS0,VE0',
+68 silly get     vary: 'Accept-Encoding' } ]
+69 verbose etag https://registry.npmjs.org/express from cache
+70 verbose get saving express to /Users/raju/.npm/registry.npmjs.org/express/.cache.json
+71 verbose correctMkdir /Users/raju/.npm correctMkdir already in flight; waiting
+72 silly addNameRange number 2 { name: 'request', range: '>=2.15.1 <3.0.0', hasData: true }
+73 silly addNameRange versions [ 'request',
+73 silly addNameRange   [ '0.10.0',
+73 silly addNameRange     '0.8.3',
+73 silly addNameRange     '0.9.0',
+73 silly addNameRange     '0.9.1',
+73 silly addNameRange     '0.9.5',
+73 silly addNameRange     '1.0.0',
+73 silly addNameRange     '1.1.0',
+73 silly addNameRange     '1.1.1',
+73 silly addNameRange     '1.2.0',
+73 silly addNameRange     '1.9.0',
+73 silly addNameRange     '1.9.1',
+73 silly addNameRange     '1.9.2',
+73 silly addNameRange     '1.9.3',
+73 silly addNameRange     '1.9.5',
+73 silly addNameRange     '1.9.7',
+73 silly addNameRange     '1.9.8',
+73 silly addNameRange     '1.9.9',
+73 silly addNameRange     '2.0.0',
+73 silly addNameRange     '2.0.1',
+73 silly addNameRange     '2.0.2',
+73 silly addNameRange     '2.0.3',
+73 silly addNameRange     '2.0.4',
+73 silly addNameRange     '2.0.5',
+73 silly addNameRange     '2.1.0',
+73 silly addNameRange     '2.1.1',
+73 silly addNameRange     '2.2.0',
+73 silly addNameRange     '2.2.5',
+73 silly addNameRange     '2.2.6',
+73 silly addNameRange     '2.2.9',
+73 silly addNameRange     '2.9.0',
+73 silly addNameRange     '2.9.1',
+73 silly addNameRange     '2.9.2',
+73 silly addNameRange     '2.9.3',
+73 silly addNameRange     '2.9.100',
+73 silly addNameRange     '2.9.150',
+73 silly addNameRange     '2.9.151',
+73 silly addNameRange     '2.9.152',
+73 silly addNameRange     '2.9.153',
+73 silly addNameRange     '2.9.200',
+73 silly addNameRange     '2.9.201',
+73 silly addNameRange     '2.9.202',
+73 silly addNameRange     '2.9.203',
+73 silly addNameRange     '2.10.0',
+73 silly addNameRange     '2.11.0',
+73 silly addNameRange     '2.11.1',
+73 silly addNameRange     '2.11.2',
+73 silly addNameRange     '2.11.3',
+73 silly addNameRange     '2.11.4',
+73 silly addNameRange     '2.12.0',
+73 silly addNameRange     '2.14.0',
+73 silly addNameRange     '2.16.0',
+73 silly addNameRange     '2.16.2',
+73 silly addNameRange     '2.16.4',
+73 silly addNameRange     '2.16.6',
+73 silly addNameRange     '2.18.0',
+73 silly addNameRange     '2.19.0',
+73 silly addNameRange     '2.20.0',
+73 silly addNameRange     '2.21.0',
+73 silly addNameRange     '2.22.0',
+73 silly addNameRange     '2.23.0',
+73 silly addNameRange     '2.24.0',
+73 silly addNameRange     '2.25.0',
+73 silly addNameRange     '2.26.0',
+73 silly addNameRange     '2.27.0',
+73 silly addNameRange     '2.28.0',
+73 silly addNameRange     '2.29.0',
+73 silly addNameRange     '2.30.0',
+73 silly addNameRange     '2.31.0',
+73 silly addNameRange     '2.32.0',
+73 silly addNameRange     '2.33.0',
+73 silly addNameRange     '2.34.0',
+73 silly addNameRange     '2.35.0',
+73 silly addNameRange     '2.36.0',
+73 silly addNameRange     '2.37.0',
+73 silly addNameRange     '2.38.0',
+73 silly addNameRange     '2.39.0',
+73 silly addNameRange     '2.40.0',
+73 silly addNameRange     '2.41.0',
+73 silly addNameRange     '2.42.0',
+73 silly addNameRange     '2.43.0',
+73 silly addNameRange     '2.44.0',
+73 silly addNameRange     '2.45.0',
+73 silly addNameRange     '2.46.0',
+73 silly addNameRange     '2.47.0',
+73 silly addNameRange     '2.48.0',
+73 silly addNameRange     '2.49.0',
+73 silly addNameRange     '2.50.0',
+73 silly addNameRange     '2.51.0',
+73 silly addNameRange     '2.52.0',
+73 silly addNameRange     '2.53.0',
+73 silly addNameRange     '2.54.0',
+73 silly addNameRange     '2.55.0',
+73 silly addNameRange     '2.56.0',
+73 silly addNameRange     '2.57.0',
+73 silly addNameRange     '2.58.0',
+73 silly addNameRange     '2.59.0',
+73 silly addNameRange     '2.60.0',
+73 silly addNameRange     '2.61.0',
+73 silly addNameRange     '2.62.0',
+73 silly addNameRange     '2.63.0',
+73 silly addNameRange     '2.64.0',
+73 silly addNameRange     '2.65.0',
+73 silly addNameRange     '2.66.0',
+73 silly addNameRange     '2.67.0',
+73 silly addNameRange     '2.68.0',
+73 silly addNameRange     '2.69.0',
+73 silly addNameRange     '2.70.0',
+73 silly addNameRange     '2.71.0',
+73 silly addNameRange     '2.72.0' ] ]
+74 silly addNamed request@2.72.0
+75 verbose addNamed "2.72.0" is a plain semver version for request
+76 silly cache afterAdd request@2.72.0
+77 verbose afterAdd /Users/raju/.npm/request/2.72.0/package/package.json not in flight; writing
+78 verbose correctMkdir /Users/raju/.npm correctMkdir not in flight; initializing
+79 silly cache afterAdd express@4.13.3
+80 verbose afterAdd /Users/raju/.npm/express/4.13.3/package/package.json not in flight; writing
+81 verbose correctMkdir /Users/raju/.npm correctMkdir not in flight; initializing
+82 verbose afterAdd /Users/raju/.npm/express/4.13.3/package/package.json written
+83 verbose afterAdd /Users/raju/.npm/request/2.72.0/package/package.json written
+84 http 404 https://registry.npmjs.org/body-parse
+85 verbose headers { 'content-type': 'application/json',
+85 verbose headers   'cache-control': 'max-age=0',
+85 verbose headers   'content-length': '2',
+85 verbose headers   'accept-ranges': 'bytes',
+85 verbose headers   date: 'Tue, 19 Apr 2016 14:14:13 GMT',
+85 verbose headers   via: '1.1 varnish',
+85 verbose headers   age: '0',
+85 verbose headers   connection: 'keep-alive',
+85 verbose headers   'x-served-by': 'cache-syd1621-SYD',
+85 verbose headers   'x-cache': 'MISS',
+85 verbose headers   'x-cache-hits': '0',
+85 verbose headers   'x-timer': 'S1461075252.928620,VS0,VE887',
+85 verbose headers   vary: 'Accept-Encoding' }
+86 silly get cb [ 404,
+86 silly get   { 'content-type': 'application/json',
+86 silly get     'cache-control': 'max-age=0',
+86 silly get     'content-length': '2',
+86 silly get     'accept-ranges': 'bytes',
+86 silly get     date: 'Tue, 19 Apr 2016 14:14:13 GMT',
+86 silly get     via: '1.1 varnish',
+86 silly get     age: '0',
+86 silly get     connection: 'keep-alive',
+86 silly get     'x-served-by': 'cache-syd1621-SYD',
+86 silly get     'x-cache': 'MISS',
+86 silly get     'x-cache-hits': '0',
+86 silly get     'x-timer': 'S1461075252.928620,VS0,VE887',
+86 silly get     vary: 'Accept-Encoding' } ]
+87 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/body-parse
+87 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+87 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+87 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+87 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:199:22)
+87 verbose stack     at emitTwo (events.js:87:13)
+87 verbose stack     at Request.emit (events.js:172:7)
+87 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+87 verbose stack     at emitOne (events.js:82:20)
+87 verbose stack     at Request.emit (events.js:169:7)
+87 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:963:12)
+88 verbose statusCode 404
+89 verbose pkgid body-parse
+90 verbose cwd /Users/raju/Desktop/gundubot/facebook
+91 error Darwin 15.3.0
+92 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+93 error node v4.4.3
+94 error npm  v2.15.1
+95 error code E404
+96 error 404 Registry returned 404 for GET on https://registry.npmjs.org/body-parse
+96 error 404
+96 error 404 'body-parse' is not in the npm registry.
+96 error 404 You should bug the author to publish it (or use the name yourself!)
+96 error 404 It was specified as a dependency of 'Raju-bot'
+96 error 404
+96 error 404 Note that you can also install from a
+96 error 404 tarball, folder, http url, or git url.
+97 verbose exit [ 1, true ]
