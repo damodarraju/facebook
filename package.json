@@ -13,5 +13,7 @@
     "express": "^4.13.4",
     "request": "^2.71.0"
   },
-  "private": true
+  "url" : "https://github.com/damodarraju/facebook.git",
+  "email" : "raju.damu25@gmail.com"
+  },
 }
